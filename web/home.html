@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="chat.js"></script>
+
+    </head>
+    <body>
+    <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <h2 class="active" id="sender"> </h2>
+     
+
+        <input type="text" id="message" class="fadeIn third" name="message" placeholder="Message">
+        <input type="button" id="send" class="fadeIn fourth" value="Send">
+         <table align="center">
+            <tr><th>sender &nbsp; &nbsp; &nbsp; &nbsp; </th><th>message</th></tr>
+            <tbody id="msg">
+            <tr>
+                
+            </tr>
+            </tbody>
+        </table>
+       
+    </div>
+    <div id="formContent2">
+         <table align="center">
+            <tr ><th> &nbsp; Online users  &nbsp; </th></tr>
+            <tbody id="onlineusers">
+            <tr>
+                
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <input type="button" id="logout" class="fadeIn fourth" value="logout">
+
+    </div>
+    </body>
+</html>
